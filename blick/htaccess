@@ -1,0 +1,6 @@
+Redirect 301 /listaprivada http://www.blickav.com.ar/privado/lista.php
+
+Options All -Indexes
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
