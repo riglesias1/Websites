@@ -1,0 +1,6 @@
+Redirect 301 /listaprivada http://www.phjulian.com.ar/contacto/lista.php
+
+Options All -Indexes
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
