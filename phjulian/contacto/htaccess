@@ -1,0 +1,13 @@
+<FilesMatch "lista.php">
+AuthName "Solo Autorizados"
+AuthType Basic
+AuthUserFile "/storage/ssd1/637/17371637/public_html/contacto/.htpasswd"
+Require user julian
+</FilesMatch>
+
+<FilesMatch "phpconnect.php">
+AuthName "Solo Autorizados"
+AuthType Basic
+AuthUserFile "/storage/ssd1/637/17371637/public_html/contacto/.htpasswd"
+Require user julian
+</FilesMatch>
